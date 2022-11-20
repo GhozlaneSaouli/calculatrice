@@ -10,41 +10,41 @@
   <script src="index.js"></script>
   <body>
     <div class="container">
-      <div class="display">0</div>
+      <div id="display" class="display"></div>
       <div class="containerButton">
         <div class="flexRow">
-          <button class="ce">CE</button>
-          <button class="flech">←</button>
-          <button class="porcentage">%</button>
-          <button class="add">+</button>
+          <button onclick="handleClick('ce')">CE</button>
+          <button onclick="handleClick('←')">←</button>
+          <button onclick="handleClick('%')">%</button>
+          <button onclick="handleClick('+')">+</button>
         </div>
 
         <div class="flexRow">
-          <button class="7">7</button>
-          <button class="8">8</button>
-          <button class="9">9</button>
-          <button class="sub">-</button>
+          <button onclick="handleClick(7)">7</button>
+          <button onclick="handleClick(8)">8</button>
+          <button onclick="handleClick(9)">9</button>
+          <button onclick="handleClick('-')">-</button>
         </div>
 
         <div class="flexRow">
-          <button class="4">4</button>
-          <button class="5">5</button>
-          <button class="6">6</button>
-          <button class="mult">X</button>
+          <button onclick="handleClick(4)">4</button>
+          <button onclick="handleClick(5)">5</button>
+          <button onclick="handleClick(6)">6</button>
+          <button onclick="handleClick('*')">X</button>
         </div>
 
         <div class="flexRow">
-          <button class="1">1</button>
-          <button class="2">2</button>
-          <button class="3">3</button>
-          <button class="division">/</button>
+          <button onclick="handleClick(1)">1</button>
+          <button onclick="handleClick(2)">2</button>
+          <button onclick="handleClick(3)">3</button>
+          <button onclick="handleClick('/')">/</button>
         </div>
 
         <div class="flexRow">
-          <button class="0">0</button>
-          <button class="kk">#</button>
-          <button class="virgul">,</button>
-          <button class="=">=</button>
+          <button onclick="handleClick(0)">0</button>
+          <button>#</button>
+          <button onclick="handleClick('.')">,</button>
+          <button onclick="handleClick('=')">=</button>
         </div>
       </div>
     </div>
